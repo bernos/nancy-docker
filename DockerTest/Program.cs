@@ -51,7 +51,7 @@ namespace DockerTest
     {
         public HomeModule()
         {
-            Get["/"] = _ => "Hello world";
+            Get["/"] = _ => "Hello world!";
         }
     }
 }
